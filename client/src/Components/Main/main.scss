@@ -161,6 +161,14 @@
     font-size: 1.5rem;
     &::after {
       width: 155px !important;
+      position: absolute;
+      content: "";
+      background: var(--SecondaryColor);
+      height: 3px;
+      width: 145px;
+      right: 0px;
+      bottom: 5px;
+      z-index: -1;
     }
   }
 

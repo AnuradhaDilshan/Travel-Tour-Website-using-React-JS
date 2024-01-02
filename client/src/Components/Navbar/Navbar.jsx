@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   //Function to remove NavBar
-  const removeNav = () => {
+  const removeNavbar = () => {
     setActive("navBar");
   };
 
@@ -28,7 +28,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className={active}>
-          <ul className="navLists flex">
+          <ul className="navList flex">
             <li className="navItem">
               <a href="#" className="navLink">
                 Home
@@ -68,11 +68,11 @@ const Navbar = () => {
               <a href="#">BOOK NOW</a>
             </button>
           </ul>
-          <div onClick={removeNav} className="closeNavBar">
+          <div onClick={removeNavbar} className="closeNavbar">
             <IoCloseCircle className="icon" />
           </div>
         </div>
-        <div onClick={showNav} className="toggleNavBar">
+        <div onClick={showNav} className="toggleNavbar">
           <TbGridDots className="icon" />
         </div>
       </header>
